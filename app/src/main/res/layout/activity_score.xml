@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="#0DF68C"
+    android:orientation="vertical"
+    >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Just Maths"
+      android:id="@+id/textView"
+      android:textSize="50sp"
+      android:textColor="#432F21"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Current Score : 00"
+      android:id="@+id/score"
+      android:textSize="30sp"
+      android:paddingTop="24dp"
+      android:textColor="#432F21" />
+
+  <ImageButton
+      android:id="@+id/btnMathShare"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:background="@drawable/roundedbtn"
+      android:onClick="doAction"
+      android:padding="16dp"
+      android:src="@drawable/ic_share_white_36dp" />
+</LinearLayout>
